@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import Movies from './Components/movies';
+import 'bootstrap/dist/css/bootstrap.css'
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Movies/>
   </React.StrictMode>,
   document.getElementById('root')
 );
